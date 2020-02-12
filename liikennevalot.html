@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="liikennevalot.css"/>
+	<meta charset="UTF-8">
+	<title>Liikennevalot</title>
+</head>
+<body>
+
+<div class="paallePois">
+	<button class="nappi nappi-auki" onclick="valojenohjausAlkaa()">Käynnistä valojen ohjaus</button>
+	<button class="nappi nappi-kiinni" onclick ="valojenohjausPoisPaalta()">Sulje valojen ohjaus</button>
+</div>
+<div class="liikennevalot">
+	<div class="ylavalot">
+		<div class="ylavalo-suoraan ylavalo-kaanto">
+		  <div class="punainen"></div>
+		  <div class="keltainen"></div>
+		  <div class="vihrea"></div>
+		</div>
+		<div class="ylavalo-nuoli-vasen ylavalo-kaanto">
+		  <div class="punainen nuoli"></div>
+		  <div class="keltainen nuoli"></div>
+		  <div class="vihrea nuoli"></div>
+		</div>
+	</div>
+	<div class= "vasen-ja-oikea">
+		<div class="vasemmat-valot">
+			<div class="vasenvalo-suoraan vasenvalo-kaanto">
+			  <div class="punainen"></div>
+			  <div class="keltainen"></div>
+			  <div class="vihrea"></div>
+			</div>
+			<div class="vasenvalo-nuoli-oikea vasenvalo-kaanto">
+			  <div class="punainen reunat-pois"></div>
+			  <div class="keltainen nuoli"></div>
+			  <div class="vihrea nuoli"></div>
+			</div>
+		</div>
+		<div class="oikeat-valot">
+			<div class="oikeavalo-nuoli-oikea oikeavalo-kaanto">
+			  <div class="punainen reunat-pois"></div>
+			  <div class="keltainen nuoli"></div>
+			  <div class="vihrea nuoli"></div>
+			</div>		
+			<div class="oikeavalo-suoraan oikeavalo-kaanto">
+			  <div class="punainen"></div>
+			  <div class="keltainen"></div>
+			  <div class="vihrea"></div>
+			</div>
+		</div>
+	</div>
+	<div class="alavalot">
+		<div class="alavalo-nuoli-vasen">
+		   <div class="punainen nuoli"></div>
+		  <div class="keltainen nuoli"></div>
+		  <div class="vihrea nuoli"></div>
+		</div>
+		<div class="alavalo-suoraan">
+		   <div class="punainen"></div>
+		  <div class="keltainen"></div>
+		  <div class="vihrea"></div>
+		</div>
+	</div>
+</div>
+
+<script src="liikennevalot.js"></script>
+
+</body>
+</html>
