@@ -1,25 +1,5 @@
-//var alavalot = document.getElementsByClassName("alavalot")[0];
-//console.log(alavalot);
-//var alavaloNuoliVasen = alavalot.getElementsByClassName("alavalo-nuoli-vasen")[0];
-//Console.log(alavaloNuoliVasen);
-//var alavaloNuoliVasenPun = alavaloNuoliVasen.getElementsByClassName("punainen")[0];
-//console.log(alavaloNuoliVasenPun);
-//alavaloNuoliVasenPun.style.backgroundColor = "red";
-
-//YLEMPI ON SAMA KUIN ALEMPI
-
-//var alavaloNuoliVasenPun = document.querySelector(".alavalo-nuoli-vasen .punainen");
-//alavaloNuoliVasenPun.style.backgroundColor = "red";
-//var alavaloSuoraanVih = document.querySelector(".alavalo-suoraan .vihrea");
-//alavaloSuoraanVih.style.backgroundColor= "chartreuse";
-
-//vaihe1PaatieVihrea();
-
-//setTimeout(valojenohjausAlkaa, 5000);
 valojenohjausPoisPaalta();
 var tulevaTimeout;
-
-
 
 function vaihe1(){  
   console.log("Päätiellä suoraan menevillä on vihreät valot");
